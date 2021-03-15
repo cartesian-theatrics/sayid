@@ -48,10 +48,10 @@
   :type 'boolean)
 
 (defconst sayid-version
-  (eval-when-compile
-    (lm-version (or load-file-name buffer-file-name)))
+  "0.1.0"
+  ;; (eval-when-compile
+  ;;   (lm-version (or load-file-name buffer-file-name)))
   "The current version of `clojure-mode'.")
-
 
 (defface sayid-int-face '((t :inherit default))
   "Sayid integer face"
